@@ -22,6 +22,10 @@
 		0964C3E4299B1C20003639D8 /* RM_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C3E3299B1C20003639D8 /* RM_Service.swift */; };
 		0964C3E6299B1C31003639D8 /* RM_Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C3E5299B1C31003639D8 /* RM_Request.swift */; };
 		0964C3E8299B1CF6003639D8 /* RM_EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C3E7299B1CF6003639D8 /* RM_EndPoint.swift */; };
+		0964C3EA299B2417003639D8 /* RM_Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C3E9299B2417003639D8 /* RM_Origin.swift */; };
+		0964C3EC299B24DA003639D8 /* RM_SingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C3EB299B24DA003639D8 /* RM_SingleLocation.swift */; };
+		0964C3EE299B2655003639D8 /* RM_CharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C3ED299B2655003639D8 /* RM_CharacterStatus.swift */; };
+		0964C3F0299B2679003639D8 /* RM_CharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C3EF299B2679003639D8 /* RM_CharacterGender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		0964C3E3299B1C20003639D8 /* RM_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_Service.swift; sourceTree = "<group>"; };
 		0964C3E5299B1C31003639D8 /* RM_Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_Request.swift; sourceTree = "<group>"; };
 		0964C3E7299B1CF6003639D8 /* RM_EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_EndPoint.swift; sourceTree = "<group>"; };
+		0964C3E9299B2417003639D8 /* RM_Origin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_Origin.swift; sourceTree = "<group>"; };
+		0964C3EB299B24DA003639D8 /* RM_SingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_SingleLocation.swift; sourceTree = "<group>"; };
+		0964C3ED299B2655003639D8 /* RM_CharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_CharacterStatus.swift; sourceTree = "<group>"; };
+		0964C3EF299B2679003639D8 /* RM_CharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_CharacterGender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +143,10 @@
 				0964C3D3299AF72B003639D8 /* RM_Characters.swift */,
 				0964C3D5299AF734003639D8 /* RM_Episodes.swift */,
 				0964C3D7299AF743003639D8 /* RM_Location.swift */,
+				0964C3E9299B2417003639D8 /* RM_Origin.swift */,
+				0964C3EB299B24DA003639D8 /* RM_SingleLocation.swift */,
+				0964C3ED299B2655003639D8 /* RM_CharacterStatus.swift */,
+				0964C3EF299B2679003639D8 /* RM_CharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -325,13 +337,17 @@
 			files = (
 				0964C3E2299AF816003639D8 /* RM_SettingsViewController.swift in Sources */,
 				0964C3DD299AF7DF003639D8 /* RM_LocationViewController.swift in Sources */,
+				0964C3F0299B2679003639D8 /* RM_CharacterGender.swift in Sources */,
+				0964C3EE299B2655003639D8 /* RM_CharacterStatus.swift in Sources */,
 				0964C3D4299AF72B003639D8 /* RM_Characters.swift in Sources */,
 				0964C3DF299AF7ED003639D8 /* RM_EpisodesViewController.swift in Sources */,
 				0964C3A1299AF51C003639D8 /* RM_TabBarController.swift in Sources */,
 				0964C39D299AF51C003639D8 /* AppDelegate.swift in Sources */,
 				0964C3DB299AF7D1003639D8 /* RM_CharacterViewController.swift in Sources */,
 				0964C3D8299AF743003639D8 /* RM_Location.swift in Sources */,
+				0964C3EA299B2417003639D8 /* RM_Origin.swift in Sources */,
 				0964C3D6299AF734003639D8 /* RM_Episodes.swift in Sources */,
+				0964C3EC299B24DA003639D8 /* RM_SingleLocation.swift in Sources */,
 				0964C3E4299B1C20003639D8 /* RM_Service.swift in Sources */,
 				0964C3E8299B1CF6003639D8 /* RM_EndPoint.swift in Sources */,
 				0964C3E6299B1C31003639D8 /* RM_Request.swift in Sources */,
