@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+
+/// object that represents a singlet API call
+final class RM_Request {
+    
+    
+}
